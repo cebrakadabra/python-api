@@ -27,7 +27,6 @@ class SnippetList(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 # method for showing a specific one (GET/:id) or update a specific one (PUT/:id)
-@api_view(['GET', 'PUT', 'DELETE'])
 class SnippetDetail(APIView):
     """
     Retrieve, update or delete a snippet instance.

@@ -14,3 +14,4 @@ pip install django-filter  # Filtering support
 - API which follows the DRY concept
 - using class based views, rather than function based views
 - using generic class based views (lot of code reduce!)
+- added authentication

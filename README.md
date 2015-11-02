@@ -17,3 +17,7 @@ pip install django-filter  # Filtering support
 - added authentication
 - created the root endpoint for the api, hyperlinked
 - created login/logout in the browsable api
+
+### One Bug
+In the browsable API it's only possible to create a new snippet via the raw data post statement.
+The api form has a bug on the code field.

@@ -15,3 +15,5 @@ pip install django-filter  # Filtering support
 - using class based views, rather than function based views
 - using generic class based views (lot of code reduce!)
 - added authentication
+- created the root endpoint for the api, hyperlinked
+- created login/logout in the browsable api

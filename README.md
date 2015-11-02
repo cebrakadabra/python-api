@@ -13,3 +13,4 @@ pip install django-filter  # Filtering support
 - simple api with one endpoint named snippets finished
 - API which follows the DRY concept
 - using class based views, rather than function based views
+- using generic class based views by using mixins

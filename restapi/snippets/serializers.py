@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 
-
+# ModelSerializer = shortcut for creating serializer classes
 class SnippetSerializer(serializers.ModelSerializer):
     class Meta:
         #using the model "rules" for serialization

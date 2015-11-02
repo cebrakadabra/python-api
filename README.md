@@ -1,4 +1,4 @@
-## Python API
+## Python REST API
 with Django REST Framework
 
 ## How to get the Django REST Framework

@@ -11,3 +11,5 @@ pip install django-filter  # Filtering support
 
 ### Development Notes
 - simple api with one endpoint named snippets finished
+- API which follows the DRY concept
+- using class based views, rather than function based views

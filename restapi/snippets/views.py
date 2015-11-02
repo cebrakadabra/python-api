@@ -16,6 +16,7 @@ class JSONResponse(HttpResponse):
         kwargs['content_type'] = 'application/json'
         super(JSONResponse, self).__init__(content, **kwargs)
 
+# method for showing all (GET ALL) and insert one (POST new)
 @csrf_exempt
 def snippet_list(request):
     """
@@ -34,6 +35,7 @@ def snippet_list(request):
             return JSONResponse(serializer.data, status=201)
         return JSONResponse(serializer.errors, status=400)
 
+# method for showing a specific one (GET/:id) or update a specific one (PUT/:id)
 @csrf_exempt
 def snippet_detail(request, pk):
     """

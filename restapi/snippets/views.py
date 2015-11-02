@@ -11,7 +11,7 @@ from snippets.serializers import SnippetSerializer
 
 # method for showing all (GET ALL) and insert one (POST new)
 @api_view(['GET', 'POST'])
-def snippet_list(request):
+def snippet_list(request, format=None):
     """
     List all snippets, or create a new snippet.
     """
@@ -29,7 +29,7 @@ def snippet_list(request):
 
 # method for showing a specific one (GET/:id) or update a specific one (PUT/:id)
 @api_view(['GET', 'PUT', 'DELETE'])
-def snippet_detail(request, pk):
+def snippet_detail(request, pk, format=None):
     """
     Retrieve, update or delete a snippet instance.
     """

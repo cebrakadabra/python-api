@@ -29,7 +29,7 @@ python manage.py makemigrations snippets
 python manage.py migrate
 ```
 
-### Development Notes
+### Development Notes/Steps
 - simple api with one endpoint named snippets finished
 - API which follows the DRY concept
 - using class based views, rather than function based views

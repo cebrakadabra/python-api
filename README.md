@@ -39,6 +39,14 @@ python manage.py migrate
 - View Sets and routers
   - allows the developer to concentrate on modeling the state and interactions of the API, and leave the URL construction to be handled automatically, based on common conventions
 
+### Default user was:
+admin:root
+
+if you want to configure a new one run
+```
+python manage.py createsuperuser
+```
+
 ### Issue Board
 In the browsable API it's only possible to create a new snippet via the raw data post statement.
 The api form has a bug on the code field.

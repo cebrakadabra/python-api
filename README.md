@@ -9,6 +9,11 @@ pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
 ```
 
+## start application by running
+```
+python manage.py runserver
+```
+
 ### If you would like to startup in a virtual env
 ```
 virtualenv env

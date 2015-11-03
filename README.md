@@ -17,6 +17,8 @@ pip install django-filter  # Filtering support
 - added authentication
 - created the root endpoint for the api, hyperlinked
 - created login/logout in the browsable api
+- View Sets and routers
+  - allows the developer to concentrate on modeling the state and interactions of the API, and leave the URL construction to be handled automatically, based on common conventions
 
 ### One Bug
 In the browsable API it's only possible to create a new snippet via the raw data post statement.

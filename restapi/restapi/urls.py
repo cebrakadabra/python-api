@@ -16,7 +16,6 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from rest_framework import routers
-from restapi import views
 from snippets import views
 
 # Create a router and register our viewsets with it.

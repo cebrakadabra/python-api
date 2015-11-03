@@ -9,6 +9,20 @@ pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
 ```
 
+### If you would like to startup in a virtual env
+```
+virtualenv env
+source env/bin/activate
+```
+
+### if you want to clean up your migrations in Development
+```
+rm -f tmp.db db.sqlite3
+rm -r snippets/migrations
+python manage.py makemigrations snippets
+python manage.py migrate
+```
+
 ### Development Notes
 - simple api with one endpoint named snippets finished
 - API which follows the DRY concept

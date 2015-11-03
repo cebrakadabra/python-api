@@ -1,5 +1,6 @@
 ## Python REST API
 with Django REST Framework
+http://www.django-rest-framework.org/
 
 ## How to get the Django REST Framework
 install it with pip

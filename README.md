@@ -40,7 +40,7 @@ python manage.py migrate
 - View Sets and routers
   - allows the developer to concentrate on modeling the state and interactions of the API, and leave the URL construction to be handled automatically, based on common conventions
 
-### Default user was:
+### Default user:
 admin:root
 
 if you want to configure a new one run
